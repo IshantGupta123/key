@@ -43,7 +43,7 @@ function setup() {
 
 function draw() {
   background(bgImg);
-
+fairyVoice.play();
 	star.x=star.position.x;
 	star.y=star.position.y;
   keyPressed2();
